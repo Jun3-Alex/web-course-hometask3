@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/Gilroy-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Обнуление стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 1319px;
+  height: 928px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Общие стили */
+.container {
+  width: 1274px;
+  height: 536px;
+}
+
+/* Стили для шапки */
+.header {
+  width: 1289px;
+  height: 114px;
+  background-color: #fff;
+}
+
+.logo {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.logo span{
+    color: #f25822;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  padding-top: 51px;
+  align-items: center;
+}
+
+.nav-links {
+  width: 533px;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+
+.home-link {
+  color: #f25822;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  font-weight: 600;
+  font-family: "Gilroy", sans-serif;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  font-weight: 500;
+  font-family: "Gilroy", sans-serif;
+}
+
+/* Стили для главного контента */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+h1 {
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+  color: #888;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 500;
+  font-family: "Gilroy", sans-serif;
+}
+
+.hero-actions {
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+}
+
+.btn-primary {
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.btn-secondary {
+  color: #aaa;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Стили для логотипов партнёров */
+.partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1240px;
+  height: 158px;
+  background-color: #f5f5f5;
+  padding: 20px 0;
+}
+
+.partner-logo {
+  flex: 1;
+  text-align: center;
+}
+
+.partner-logo img {
+  max-width: 100%;
+  height: auto;
+}
